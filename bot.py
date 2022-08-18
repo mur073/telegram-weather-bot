@@ -46,10 +46,8 @@ async def get_weather(message: types.Message):
             wd = ""
 
         await message.answer(
-            f"<b>📅 Сегодня:</b> {datetime.datetime.now().strftime('%d-%m-%Y')}\n"
             f"<b>🌆 Город:</b> {city}\n"
             f"<b>🌡 Температра:</b> {current_temp}°C, <i>{wd}</i>\n"
-            f"<b>🫡 Ощущается как:</b> {feels_like}°C.\n"
             f"<b>💧 Влажность воздуха:</b> {humidity}%\n"
             f"<b>🎈 Давление:</b> {pressure} мм.рт.ст\n"
             f"<b>🌅 Восход:</b> {sunrise}\n"
