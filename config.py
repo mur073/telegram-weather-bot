@@ -1,2 +1,2 @@
-API_KEY = 'e507d23d5ab284f4628968448a364c20'
-BOT_TOKEN = '5422007291:AAHP_bj1mjKTMpKHVZi5qFN7Gd3hbjB_1gw'
+API_KEY = 'your API_KEY from https://openweathermap.org/'
+BOT_TOKEN = 'your BOT_TOKEN'
