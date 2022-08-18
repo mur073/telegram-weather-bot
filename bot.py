@@ -32,7 +32,6 @@ async def get_weather(message: types.Message):
 
         city = data["name"]
         current_temp = data["main"]["temp"]
-        feels_like = data["main"]["feels_like"]
         humidity = data["main"]["humidity"]
         pressure = data["main"]["pressure"]
         sunrise = datetime.datetime.fromtimestamp(data["sys"]["sunrise"])
